@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Teatree shampoo",
+        "category": "Hair",
+        "price": "5.99",
+        "imgSrc": "/static/img/hair/hair1.png"
+    },
+    {
+        "name": "H&S shampoo",
+        "category": "Hair",
+        "price": "5.89",
+        "imgSrc": "/static/img/hair/hair2.png"
+    },
+    {
+        "name": "Elive shampoo",
+        "category": "Hair",
+        "price": "9.00",
+        "imgSrc": "/static/img/hair/hair3.png"
+    },
+    {
+        "name": "VisionDry shampoo",
+        "category": "Hair",
+        "price": "10.50",
+        "imgSrc": "/static/img/hair/hair4.png"
+    },
+    {
+        "name": "Blue wig",
+        "category": "Hair",
+        "price": "87.45",
+        "imgSrc": "/static/img/hair/hair4.png"
+    },
+    {
+        "name": "Brown wig",
+        "category": "Hair",
+        "price": "22.50",
+        "imgSrc": "/static/img/hair/hair6.png"
+    },
+    {
+        "name": "Black wig",
+        "category": "Hair",
+        "price": "88.99",
+        "imgSrc": "/static/img/hair/hair7.png"
+    },
+    {
+        "name": "Golden wig",
+        "category": "Hair",
+        "price": "150.50",
+        "imgSrc": "/static/img/hair/hair8.png"
+    },
+    {
+        "name": "Human hair",
+        "category": "Hair",
+        "price": "500.50",
+        "imgSrc": "/static/img/hair/hair9.png"
+    },
+    {
+        "name": "Synthetic hair",
+        "category": "Hair",
+        "price": "25.00",
+        "imgSrc": "/static/img/hair/hair10.png"
+    },
+    {
+        "name": "Fringe wig",
+        "category": "Hair",
+        "price": "419.00",
+        "imgSrc": "/static/img/hair/hair11.png"
+    },
+    {
+        "name": "Rainbow wig",
+        "category": "Hair",
+        "price": "750.99",
+        "imgSrc": "/static/img/hair/hair12.png"
+    }
+]

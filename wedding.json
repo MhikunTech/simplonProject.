@@ -1,0 +1,62 @@
+[
+    {
+        "name": " Diamon ring",
+        "category": "Wedding Kits",
+        "price": "1209.20",
+        "imgSrc": "/static/img/wedding/wed1.png"
+    },
+    {
+        "name": "Engagement set",
+        "category": "Wedding Kits",
+        "price": "40500.99",
+        "imgSrc": "/static/img/wedding/wed2.png"
+    },
+    {
+        "name": "Golden set ",
+        "category": "Wedding Kits",
+        "price": "50000.25",
+        "imgSrc": "/static/img/wedding/wed3.png"
+    },
+    {
+        "name": "Gold ring",
+        "category": "Wedding Kits",
+        "price": "12000.25",
+        "imgSrc": "/static/img/wedding/wed4.png"
+    },
+    {
+        "name": "3-step Cake",
+        "category": "Wedding Kits",
+        "price": "120.00",
+        "imgSrc": "/static/img/wedding/wed5.png"
+    },
+    {
+        "name": "Cake ",
+        "category": "Wedding Kits",
+        "price": "120.00",
+        "imgSrc": "/static/img/wedding/wed6.png"
+    },
+    {
+        "name": "Cakey",
+        "category": "Wedding Kits",
+        "price": "213.75",
+        "imgSrc": "/static/img/wedding/wed7.png"
+    },
+    {
+        "name": "Imperial cake",
+        "category": "Wedding Kits",
+        "price": "10.00",
+        "imgSrc": "/static/img/wedding/wed8.png"
+    },
+    {
+        "name": "Whitegold Ring",
+        "category": "Wedding Kits",
+        "price": "15000.00",
+        "imgSrc": "/static/img/wedding/wed9.png"
+    },
+    {
+        "name": "Diamon ring",
+        "category": "Wedding Kits",
+        "price": "100000.00",
+        "imgSrc": "/static/img/wedding/wed10.png"
+    }
+]

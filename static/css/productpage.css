@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.fixed{
+	width: 100vw;
+	background-color: inherit;
+}
+/* Sidepanel Styling Starts */
+
+/* The sidepanel menu */
+.sidepanel {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f9f7f4;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #565656;
+  display: block;
+  transition: 0.3s;
+  font-family: "Raleway" sans-serif;
+}
+
+/* Applying color change effect when sidepanel links is being hovered on */
+.sidepanel a:hover {
+  color: #dcbd4c;
+}
+
+/* Position and styling the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Styling the button used in opening the sidepanel */
+.openbtn {
+  font-size: 30px;
+  cursor: pointer;
+  color: #565656;
+  padding: 10px 15px;
+  border: none;
+  text-decoration: none;
+}
+
+/* Applying color change effect when openbtn links is being hovered on */
+.openbtn:hover {
+  color: goldenrod;
+}
+/* Sidepanel Styling Ends */
+
+/* Topnav Styling Start */
+.topnav {
+  overflow: hidden;
+}
+
+/* Styling the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #565656;
+  text-align: center;
+  padding: 17px 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px "Times New Roman";
+}
+
+/* Changing the color of links on hover */
+.topnav a:hover {
+  color: goldenrod;
+}
+
+/* Hiding the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+.hr {
+  border: none;
+  border-top: 2.5px double;
+}
+/* Topnav Styling Ends */
+
+/* Card Section  */
+
+:root {
+  --white-light: rgba(255, 255, 255, 0.5);
+  --alice-blue: #f8f9fa;
+  --gray: #ededed;
+}
+
+.p{
+	padding-top: 150px;
+	}
+	
+.p h1{
+	font:25px 'Times New Roman'
+}
+h1:hover{
+	color: goldenrod;
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+/* Utility stylings */
+img {
+  width: 100%;
+  display: block;
+}
+.container {
+  width: 88vw;
+  margin: 0 auto;
+}
+/* .lg-title,
+.md-title, */
+.sm-title {
+  font-family: "Roboto", sans-serif;
+  padding: 0.6rem 0;
+  text-transform: capitalize;
+}
+/* .lg-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 1.3rem 0;
+  opacity: 0.9;
+}
+.md-title {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+} */
+.sm-title {
+  font-weight: 300;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+/* .text-light {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  opacity: 0.5;
+  margin: 0.4rem 0;
+} */
+
+/* product section */
+.products {
+  padding: 3.2rem 0;
+  padding-top: 50px;
+}
+/* .products .text-light {
+  text-align: center;
+  width: 70%;
+  margin: 0.9rem auto;
+} */
+.product {
+  margin: 2rem;
+  position: relative;
+}
+.product-content {
+  background: var(--gray);
+  padding: 3rem 0.5rem 2rem 0.5rem;
+  cursor: pointer;
+}
+.product-img {
+  background: var(--white-light);
+  box-shadow: 0 0 20px 10px var(--white-light);
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  transition: background 0.5s ease;
+}
+.product-btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.4rem;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+.btn-cart,
+.btn-buy {
+  background: transparent;
+  border: 1px solid black;
+  padding: 0.8rem 0;
+  width: 125px;
+  font-family: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  transition: all 0.6s ease;
+}
+.btn-cart {
+  background: black;
+  color: white;
+}
+.btn-cart:hover {
+  background: goldenrod;
+}
+.btn-buy {
+  background: white;
+}
+.btn-buy:hover {
+  background: goldenrod;
+  color: #fff;
+}
+.product-info {
+  background: white;
+  padding: 2rem;
+}
+.product-info-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating span {
+  color: goldenrod;
+}
+.product-name {
+  color: black;
+  display: block;
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.product-price {
+  padding-top: 0.6rem;
+  padding-right: 0.6rem;
+  display: inline-block;
+}
+.product-price:first-of-type {
+  text-decoration: line-through;
+  color: goldenrod;
+}
+.product-img img {
+  transition: transform 0.6s ease;
+}
+.product:hover .product-img img {
+  transform: scale(1.1);
+}
+.product:hover .product-img {
+  background: goldenrod;
+}
+.product:hover .product-btns {
+  opacity: 1;
+}
+.off-info .sm-title {
+  background: goldenrod;
+  color: white;
+  display: inline-block;
+  padding: 0.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  z-index: 1;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+	.p{
+	  padding-top: 100px;
+	}
+	.product{
+	  margin: 1px;
+	  
+	}
+  }
+
+@media screen and (min-width: 799px) {
+  .product-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .product {
+	margin-right: 10px;
+	margin-left: 10px;
+
+  }
+ 
+}
+
+@media screen and (min-width: 1000px) {
+  .product-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .product {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+ 
+}
+@media screen and (min-width: 1200px) {
+  .product-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+ 
+}
+
+/* news letter */
+.email {
+	background-color: #8a939780;
+	padding: 6px 12px 6px 40px;
+	border: none;
+  }
+  
+  .join {
+	color: #fff;
+	padding: 20px 0px 10px;
+	font-size: 20px;
+	font-family: "Poppins", sans-serif;
+  }
+  .write {
+	color: #565656;
+	padding: 20px 0px 0px;
+	font-size: 14px "Oswald";
+  }
+  .news {
+	background-image: url("/static/img/news.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+	
+/* footer */
+ul {
+	list-style: none;
+  }
+  
+  .li {
+	text-decoration: none;
+	font-size: 14px "Raleway";
+  
+	color: #888888;
+  }
+  
+  .li:hover {
+	color: #fcbf30;
+  }
+  
+  .h4 {
+	font-size: 14px;
+	font-family: "Poppins", sans-serif;
+	color: #ffffff;
+  }
+  
+  .fab {
+	background-color: #707070;
+	text-decoration: none;
+  }
+  
+  .fa-facebook-f {
+	color: #658cdd;
+  }
+  
+  .fa-twitter {
+	color: #31bfe1;
+  }
+  
+  .fa-instagram {
+	color: #a86017;
+  }
+  
+  .fab:hover {
+	background-color: #fcbf30;
+  }
+  /* ==================== */
+  .footer {
+	background-color: #31353d;
+  }
+  /*  */

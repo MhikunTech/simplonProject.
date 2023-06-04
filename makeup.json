@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Contour brush",
+        "category": "Make-up",
+        "price": "3.99",
+        "imgSrc": "/static/img/makeup/mak1.png"
+    },
+    {
+        "name": "Mascara pallet",
+        "category": "Make-up",
+        "price": "15.89",
+        "imgSrc": "/static/img/makeup/mak2.png"
+    },
+    {
+        "name": "Face brush",
+        "category": "Make-up",
+        "price": "2.00",
+        "imgSrc": "/static/img/makeup/mak3.png"
+    },
+    {
+        "name": "Single brush",
+        "category": "Make-up",
+        "price": "2.50",
+        "imgSrc": "/static/img/makeup/mak4.png"
+    },
+    {
+        "name": "Eye liner",
+        "category": "Make-up",
+        "price": "87.45",
+        "imgSrc": "/static/img/makeup/mak5.png"
+    },
+    {
+        "name": "Eye Shadow pallet",
+        "category": "Make-up",
+        "price": "32.50",
+        "imgSrc": "/static/img/makeup/mak6.png"
+    },
+    {
+        "name": "Face powder",
+        "category": "Make-up",
+        "price": "8.99",
+        "imgSrc": "/static/img/makeup/mak7.png"
+    },
+    {
+        "name": "Foundation",
+        "category": "Make-up",
+        "price": "150.50",
+        "imgSrc": "/static/img/makeup/mak8.png"
+    },
+    {
+        "name": "White powder",
+        "category": "Make-up",
+        "price": "5.50",
+        "imgSrc": "/static/img/makeup/mak9.png"
+    },
+    {
+        "name": "Pink paint",
+        "category": "Nail & Nail Art",
+        "price": "5.00",
+        "imgSrc": "/static/img/makeup/mak10.png"
+    },
+    {
+        "name": "Eye liner",
+        "category": "Make-up",
+        "price": "19.00",
+        "imgSrc": "/static/img/makeup/mak11.png"
+    }
+]

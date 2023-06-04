@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Body bar",
+        "category": "Skin-care",
+        "price": "10.00",
+        "imgSrc": "/static/img/skincare/skin1.png"
+    },
+    {
+        "name": "Body bar",
+        "category": "Skin-care",
+        "price": "10.00",
+        "imgSrc": "/static/img/skincare/skin2.png"
+    },
+    {
+        "name": "Body bar",
+        "category": "Skin-care",
+        "price": "10.00",
+        "imgSrc": "/static/img/skincare/skin3.png"
+    }
+]

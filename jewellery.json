@@ -1,0 +1,50 @@
+[
+{
+    "name": "Mettalic necklace",
+    "category": "Jewellery",
+    "price": "1169.20",
+    "imgSrc": "/static/img/jewellery/jew1.png"
+},
+{
+    "name": "Silver necklace",
+    "category": "Jewellery",
+    "price": "1224.99",
+    "imgSrc": "/static/img/jewellery/jew2.png"
+},
+{
+    "name": "Crystal necklace",
+    "category": "Jewellery",
+    "price": "1190.25",
+    "imgSrc": "/static/img/jewellery/jew3.png"
+},
+{
+    "name": "Diamond necklace",
+    "category": "Jewellery",
+    "price": "11150.25",
+    "imgSrc": "/static/img/jewellery/jew4.png"
+},
+{
+    "name": "Whitegold necklace",
+    "category": "Jewellery",
+    "price": "11102.00",
+    "imgSrc": "/static/img/jewellery/jew5.png"
+},
+{
+    "name": "Spiral necklace",
+    "category": "Jewellery",
+    "price": "11115.00",
+    "imgSrc": "/static/img/jewellery/jew6.png"
+},
+{
+    "name": "Emerald necklace ",
+    "category": "Jewellery",
+    "price": "11123.75",
+    "imgSrc": "/static/img/jewellery/jew7.png"
+},
+{
+    "name": "Ruby necklace",
+    "category": "Jewellery",
+    "price": "11150.00",
+    "imgSrc": "/static/img/jewellery/jew8.png"
+}
+]

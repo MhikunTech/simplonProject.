@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Simplon's Beauty Store</title>
+
+  <!-- Boostrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <!--  -->
+    <link rel="shortcut icon" href="/static/img/favicon.png" type="image/x-icon">
+  <!-- Boostrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+
+
+  <!-- Custom css -->
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link rel="stylesheet" href="/static/css/hair.css" />
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <!-- Css Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Header Nav Start -->
+  <div class="navbar navbar-expand-lg fixed-top  bg-light  ">
+    <div class="container-fluid d-flex justify-content-between align-items-center ">
+      <!--  -->
+
+      <div class="col">
+        <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: none;">
+          <span class="navbar-toggler-icon"></span>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link vertt" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link vertt" href="about.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link vertt" href="contact.html">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="gallery.html">GALLERY</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="col d-flex align-items-center justify-content-end ">
+        <span><a href="login.html" class="text "><i class="bi bi-person-lock"></i>
+            <span class="abs">Login </span></a></span>
+        &nbsp; &nbsp;
+        <!-- cart -->
+        <div class="cart  ">
+          <button type="button" id="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count-info"></span>
+          </button>
+
+          <div class="cart-container">
+            <div class="cart-list">
+
+            </div>
+
+            <div class="cart-total">
+              <h3>Total: $</h3>
+              <span id="cart-total-value"></span>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+  <!-- Header Nav Ends -->
+
+  <!-- Navbar / Logo / Sidepanel Start-->
+  <div class="container-fluid bg-light  fixed ">
+    <div class="row d-flex align-items-center justify-content-between">
+      <hr class="hr" />
+      <!-- SIDEPANEL -->
+      <div class="col-1 d-sm-block d-md-none">
+        <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">Home</a>
+          <a href="hair.html">Hair</a>
+          <a href="skin.html">Skin</a>
+          <a href="make-up.html">Make-Up Kits</a>
+          <a href="nail.html">Nail Paints & Arts</a>
+          <a href="jewellery.html">Jewellery</a>
+          <a href="wedding.html">Wedding Kits</a>
+          <a href="upcoming.html">Upcoming Products</a>
+        </div>
+
+        <a class="openbtn" onclick="openNav()">&#9776; </a>
+      </div>
+
+      <!-- LOGO -->
+      <div class="col-10 ">
+        <img class="logo d-" src="/static/img/Simplonlogo.png " alt="" style="width: 300px">
+      </div>
+      <hr class="hr d-lg-none">
+    </div>
+
+    <!-- NAVBAR -->
+
+    <div class="row d-flex align-items-center justify-content-end">
+      <div class="col-md-10 col-lg-9 d-none d-sm-block">
+        <div class="topnav" id="myTopnav">
+          <a href="index.html">Home</a>
+          <a href="hair.html">Hair</a>
+          <a href="skin.html">Skin</a>
+          <a href="make-up.html">Make-Up Kits</a>
+          <a href="nail.html">Nail Paint & Arts</a>
+          <a href="jewellery.html">Jewellery</a>
+          <a href="wedding.html">Wedding Kits</a>
+          <a href="upcoming.html">Upcoming Products</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+      <hr class="hr d-none d-sm-block" />
+    </div>
+  </div>
+  <!-- Navbar / Logo / Sidepanel Ends -->
+
+<!-- header -->
+<header class = "flex header-sm">
+  <div class = "container">
+      <div class = "header-title">
+          <h1>Hair Kits</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rerum maxime enim odit illum in molestias beatae doloremque, ratione optio.</p>
+      </div>
+  </div>
+</header>
+<!-- header -->
+
+
+  <!-- ===== PRODUCT CARD START===== -->
+
+  <section class="products">
+    <div class="container">
+      <div class="product-list">
+        <!-- single item -->
+        <div class="product-item">
+          <div class="product-img">
+            <img src="" alt="product image">
+            <button type="button" class="add-to-cart-btn">
+              <i class="fas fa-shopping-cart"></i>Add To Cart
+            </button>
+          </div>
+
+          <div class="product-content">
+            <h3 class="product-name"></h3>
+            <span class="product-category"></span>
+            <p class="product-price"></p>
+          </div>
+        </div>
+        <!-- end of single item -->
+      </div>
+    </div>
+  </section>
+  <!-- ===== PRODUCT CARD ENDS===== -->
+
+  <!-- ================================== BLOGPOSTS================================================ -->
+  <!-- SECTION TITLE -->
+  <div class="container-fluid">
+    <div class="row p d-flex pt-4">
+      <hr class="hr">
+      <div class="col text-center ">
+        <p>
+          <span style="font:25px 'Times New Roman';"> BLOG STORY</span>
+        </p>
+      </div>
+      <hr class="hr">
+    </div>
+  </div>
+  <div class="container pb-5">
+    <!-- ===========SECTION CARDS================= -->
+    <div class="row text-center px-2 ">
+      <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+        <div class="">
+          <img class="my-3" src="/static/img/blog2.jpg" alt="" style="height: 250px; width: 100%" />
+          <div class="card-body">
+            <h5>
+              <a class="card-titl pt-5" href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+                consectetur.</a>
+            </h5>
+            <span class="card-text my-4">
+              <p style="font-size: 14px; color: #999999">
+                <i class="bi bi-calendar3"></i> MAY-11
+              </p>
+              <p class="blog">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nobis cum quas nam sed animi.
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- =================== CARD 2======================= -->
+      <div class="col-sm-12 col-md-6 col-lg-4 my-2 d-none d-md-block">
+        <div class="">
+          <img class="my-3" src="/static/img/blog2.jpg" alt="" style="height: 250px; width: 100%" />
+          <div class="card-body">
+            <h5>
+              <a class="card-titl pt-5" href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+                consectetur.</a>
+            </h5>
+            <span class="card-text my-4">
+              <p style="font-size: 12px; color: #999999">
+                <i class="bi bi-calendar3"></i> MAY-11
+              </p>
+              <p class="blog">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eum tempora possimus adipisci
+                voluptates dolorum.
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- =================== CARD 3======================= -->
+      <div class="col-sm-12 col-md-6 col-lg-4 my-2 d-md-none d-lg-block">
+        <div class="">
+          <img class="my-3" src="/static/img/blog2.jpg" alt="" style="height: 250px; width: 100%" />
+          <div class="card-body">
+            <h5>
+              <a class="card-titl" href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+                consectetur.</a>
+            </h5>
+            <span class="card-text my-4">
+              <p style="font-size: 12px; color: #999999">
+                <i class="bi bi-calendar3"></i> MAY-11
+              </p>
+              <p class="blog">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus est, cumque tenetur aperiam officiis
+                excepturi.
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- =================== CARD 3 END======================= -->
+    </div>
+  </div>
+
+  <!-- ======================== NEWS LETTER============================ -->
+  <div class=" container-fluid news-letter pt-3">
+    <div class="row news justify-content-around px-3" style="height: 200px">
+      <div class="col-sm-5 col-md-5 col-lg-5">
+        <h2 class="mt-md-4 mt-lg-4 join">JOIN OUR NEWSLETTER</h2>
+        <p class="write">
+          We only send emails once a month and only about <br />
+          good things.
+        </p>
+      </div>
+
+      <div class="col-sm-5 col-md-5 col-lg-5">
+        <input type="email" value="" placeholder="Your email..." name="EMAIL" class="email mt-md-4 mt-lg-4"
+          aria-label="Your email..." /><br />
+        <span>
+          <button type="submit" style=" border: none; outline: none;
+						padding: 0px 15px 0px 0px;
+						font-size: 14px 'Raleway';
+						color: #fff;
+						background-color: inherit;
+					  ">
+            <span class="join"> Subscribe</span>
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== FOOTER============================ -->
+  <footer class="footer px-md-3 px-3">
+    <div class="row px-md-5 pt-5">
+      <div class="col-sm-12 col-md-3 my-3">
+        <h4 class="h4">SIMPLON BEAUTY</h4>
+        <ul>
+          <div class="li text-decoration-none">
+            <li><a href="about.html" class="li">About Us</a></li>
+            <li><a href="#" class="li">Our Services </a></li>
+            <li><a href="contact.html" class="li">Contact</a></li>
+            <li><a href="gallery.html" class="li">Gallery</a></li>
+          </div>
+        </ul>
+      </div>
+      <div class="col-sm-12 col-md-3 my-3">
+        <h4 class="h4">Get Help</h4>
+        <ul>
+          <li><a href="faq.html" class="li">FAQ</a></li>
+          <li><a href="faq.html" class="li">Shipping</a></li>
+          <li><a href="faq.html" class="li">Returns</a></li>
+          <li><a href="faq.html" class="li">Order Status</a></li>
+          <li><a href="faq.html" class="li">Payment Options</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-12 col-md-3 my-3">
+        <h4 class="h4">Categories</h4>
+        <ul>
+
+          <li><a href="skin.html" class="li">SKIN CARE</a></li>
+          <li><a href="make-up.html" class="li">MAKE-UP KITS</a></li>
+          <li><a href="jewellery.html" class="li">Jewellery</a></li>
+          <li><a href="jewellery.html" class="li">Wedding Kits</a></li>
+          <li><a href="jewellery.html" class="li">Nail paint and Art</a></li>
+          <li><a href="jewellery.html" class="li">Hair</a></li>
+
+        </ul>
+      </div>
+      <div class="col-sm-12 col-md-3 my-3">
+        <h4 class="h4">Follow Us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f px-2 py-2"></i></a>
+          <a href="#"><i class="fab fa-twitter px-2 py-2"></i></a>
+          <a href="#"><i class="fab fa-instagram px-2 py-2"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ================================================================== -->
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <script src="/static/js/hair.js"></script>
+  <!--  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

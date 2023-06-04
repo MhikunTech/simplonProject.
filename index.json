@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Contour brush",
+        "category": "Make-up",
+        "price": "3.99",
+        "imgSrc": "/static/img/makeup/mak1.png"
+    },
+    {
+        "name": "Mascara pallet",
+        "category": "Make-up",
+        "price": "15.89",
+        "imgSrc": "/static/img/makeup/mak2.png"
+    },
+    {
+        "name": "Teatree shampoo",
+        "category": "Hair",
+        "price": "5.99",
+        "imgSrc": "/static/img/hair/hair1.png"
+    },
+    {
+        "name": "H&S shampoo",
+        "category": "Hair",
+        "price": "5.89",
+        "imgSrc": "/static/img/hair/hair2.png"
+    },
+    {
+        "name": "Golden wig",
+        "category": "Hair",
+        "price": "150.50",
+        "imgSrc": "/static/img/hair/hair8.png"
+    },
+    {
+        "name": "Silver necklace",
+        "category": "Jewellery",
+        "price": "1224.99",
+        "imgSrc": "/static/img/jewellery/jew2.png"
+    },
+    {
+        "name": "Crystal necklace",
+        "category": "Jewellery",
+        "price": "1190.25",
+        "imgSrc": "/static/img/jewellery/jew3.png"
+    },
+    {
+        "name": "Body bar",
+        "category": "Skin-care",
+        "price": "10.00",
+        "imgSrc": "/static/img/skincare/skin2.png"
+    },
+    {
+        "name": "Body bar",
+        "category": "Skin-care",
+        "price": "10.00",
+        "imgSrc": "/static/img/skincare/skin3.png"
+    },
+    {
+        "name": "Cake ",
+        "category": "Wedding Kits",
+        "price": "120.00",
+        "imgSrc": "/static/img/wedding/wed6.png"
+    },
+    {
+        "name": "Cakey",
+        "category": "Wedding Kits",
+        "price": "213.75",
+        "imgSrc": "/static/img/wedding/wed7.png"
+    },
+    {
+        "name": "Imperial cake",
+        "category": "Skin-care",
+        "price": "10.00",
+        "imgSrc": "/static/img/wedding/wed8.png"
+    },
+    {
+        "name": "Engagement set",
+        "category": "Wedding Kits",
+        "price": "40500.99",
+        "imgSrc": "/static/img/wedding/wed2.png"
+    },
+    {
+        "name": "Golden set ",
+        "category": "Wedding Kits",
+        "price": "50000.25",
+        "imgSrc": "/static/img/wedding/wed3.png"
+    },
+    {
+        "name": "Elive shampoo",
+        "category": "Hair",
+        "price": "9.00",
+        "imgSrc": "/static/img/hair/hair3.png"
+    },
+    {
+        "name": "VisionDry shampoo",
+        "category": "Hair",
+        "price": "10.50",
+        "imgSrc": "/static/img/hair/hair4.png"
+    }
+]

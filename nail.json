@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Nail paint",
+        "category": "Nail & Nail Art",
+        "price": "50.99",
+        "imgSrc": "/static/img/nail/nail1.png"
+    },
+    {
+        "name": "   CND paint",
+        "category": "Nail & Nail Art",
+        "price": "9.20",
+        "imgSrc": "/static/img/nail/nail2.png"
+    },
+    {
+        "name": "Sinfu paint",
+        "category": "Nail & Nail Art",
+        "price": "4.99",
+        "imgSrc": "/static/img/nail/nail3.png"
+    },
+    {
+        "name": "NYC paint ",
+        "category": "Nail & Nail Art",
+        "price": "10.25",
+        "imgSrc": "/static/img/nail/nail4.png"
+    },
+    {
+        "name": "Faby Paint ",
+        "category": "Nail & Nail Art",
+        "price": "50.25",
+        "imgSrc": "/static/img/nail/nail5.png"
+    },
+    {
+        "name": "9t05 ",
+        "category": "Nail & Nail Art",
+        "price": "12.00",
+        "imgSrc": "/static/img/nail/nail6.png"
+    },
+    {
+        "name": "OPI paint ",
+        "category": "Nail & Nail Art",
+        "price": "15.00",
+        "imgSrc": "/static/img/nail/nail7.png"
+    },
+    {
+        "name": "Cre8tion",
+        "category": "Nail & Nail Art",
+        "price": "23.75",
+        "imgSrc": "/static/img/nail/nail8.png"
+    }
+]
